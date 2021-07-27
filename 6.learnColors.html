@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LEARN COLORS</title>
+	<script type="text/javascript">
+
+		function playAudio1(audio1) {
+        	var audio1=document.getElementById(audio1);
+        	audio1.play();
+        	audio1.playbackRate=0.7;
+        }
+        function stopAudio1(audio1){
+            var audio1=document.getElementById(audio1);
+        	audio1.pause();
+        	audio1.currentTime = 0;
+        }
+		
+	</script>
+	<style type="text/css">
+
+		header{
+			border-bottom-style: double;
+			text-align: center;
+			font-size: 22px;
+			color: #ADEFD1FF;
+			
+		}
+		body{
+			background-color: #00203FFF;
+			width: 100%;
+			overflow: hidden;
+		}
+		img{
+			height: 160px;
+			width: 160px;
+		}
+		img:hover{
+			/*border: 1px solid black;*/
+			transition: .5s;
+			transform: scale(2.10);
+		}
+		table{
+			/*width: 100%;*/
+			
+			border-spacing: 20px;
+		}
+		li{
+               overflow: hidden;
+               float: right;
+               margin-top: 0px;
+          }
+          li a{
+               display: block;
+               color: #ADEFD1FF;
+               text-align: center;
+               padding: 14px 16px;             
+          }
+          li:hover{
+               transform: scale(1.35);
+               transition: .5s;
+          }
+          footer{
+               border-top-style: double;
+               text-align: center;
+               color: #ADEFD1FF;
+               font-size: 18px;
+          }
+          #footerAbout{
+          	   color: #ADEFD1FF;
+          	   font-size: 18px;
+          }
+		
+	</style>
+</head>
+<body>
+	<nav>
+          <ul>
+               <strong><li><a href="CONTACT.html">CONTACT</a></li><li><a href="2.GAMEques.html">GAMES</a></li><li><a href="index.html">ABOUT</a></li><li><a href="index.html">HOME</a></li></strong>
+          </ul>
+     </nav>
+     <br>
+     <header>
+         <h1>🔴🟡 &nbsp;LET&nbsp; US&nbsp; LEARN&nbsp; COLORS&nbsp; 🔵🟢</h1>
+     </header>
+     
+	<script type="text/javascript">
+          window.alert("IMPORTANT MESSAGE\n\nHover on the picture to listen and learn.\nIf the sound does not play try clicking once\nYou can also click on image to replay the sound");
+    </script>
+    <br>
+    <br>
+	<table align="center">
+		<tr>
+			<audio id="RED">
+				<source src="COLORS\RED.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('RED')" onclick="playAudio1('RED')" onmouseout="stopAudio1('RED')" src="COLORS\RED.png" alt="RED"></td>
+			<audio id="BLUE">
+				<source src="COLORS\BLUE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('BLUE')" onclick="playAudio1('BLUE')" onmouseout="stopAudio1('BLUE')" src="COLORS\BLUE.png" alt="BLUE"></td>
+			<audio id="YELLOW">
+				<source src="COLORS\YELLOW.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('YELLOW')" onclick="playAudio1('YELLOW')" onmouseout="stopAudio1('YELLOW')" src="COLORS\YELLOW.png" alt="YELLOW"></td>
+			<audio id="GREEN">
+				<source src="COLORS\GREEN.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('GREEN')" onclick="playAudio1('GREEN')" onmouseout="stopAudio1('GREEN')" src="COLORS\GREEN.png" alt="GREEN"></td>
+			<audio id="ORANGE">
+				<source src="COLORS\ORANGE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('ORANGE')" onclick="playAudio1('ORANGE')" onmouseout="stopAudio1('ORANGE')" src="COLORS\ORANGE.png" alt="ORANGE"></td>
+		</tr>
+		<tr>
+			<audio id="PINK">
+				<source src="COLORS\PINK.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('PINK')" onclick="playAudio1('PINK')" onmouseout="stopAudio1('PINK')" src="COLORS\PINK.png" alt="PINK"></td>
+			<audio id="BROWN">
+				<source src="COLORS\BROWN.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('BROWN')" onclick="playAudio1('BROWN')" onmouseout="stopAudio1('BROWN')" src="COLORS\BROWN.png" alt="BROWN"></td>
+			<audio id="PURPLE">
+				<source src="COLORS\PURPLE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('PURPLE')" onclick="playAudio1('PURPLE')" onmouseout="stopAudio1('PURPLE')" src="COLORS\PURPLE.png" alt="PURPLE"></td>
+			<audio id="BLACK">
+				<source src="COLORS\BLACK.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('BLACK')" onclick="playAudio1('BLACK')" onmouseout="stopAudio1('BLACK')" src="COLORS\BLACK.png" alt="BLACK"></td>
+			<audio id="WHITE">
+				<source src="COLORS\WHITE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('WHITE')" onclick="playAudio1('WHITE')" onmouseout="stopAudio1('WHITE')" src="COLORS\WHITE.png" alt="WHITE"></td>
+		</tr> 
+		                      
+	</table>
+    
+    <br>
+	<footer>
+	   <strong><p>This project has been created by HARSIMRANJIT SINGH. Go to <a id="footerAbout" href="index.html"><em>about</em></a> section to know more....</p></strong>
+    </footer>
+
+	
+
+
+</body>
+</html>

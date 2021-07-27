@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LEARN ANIMALS</title>
+	<script type="text/javascript">
+
+		function playAudio1(audio1) {
+        	var audio1=document.getElementById(audio1);
+        	audio1.play();
+        	audio1.playbackRate=0.75;
+        }
+        function stopAudio1(audio1){
+            var audio1=document.getElementById(audio1);
+        	audio1.pause();
+        	audio1.currentTime = 0;
+        }
+		
+	</script>
+	<style type="text/css">
+
+		header
+		{
+			border-bottom-style: double;
+            text-align: center;
+			font-size: 22px; 
+			color: #3acf75;      
+		}
+
+
+		img{
+			height: 175px;
+			width: 235px;
+			border: 1px solid black;
+		}
+		.widthChange{
+			width: 255px;
+		}
+		img:hover{
+			transition: .5s;
+			transform: scale(1.75);
+		}
+
+		body{
+			background-color: #fce356;
+			width: 100%;
+		}
+
+		table{
+			width: 900px;
+			border-spacing: 8px;
+		}
+
+		span{
+			text-shadow: 10px 10px 20px #89fab6;
+		}
+		li{
+               overflow: hidden;
+              /* background-color: #333;*/
+               position: -webkit-sticky; /* Safari */
+               position: sticky;
+               /*top: 0;*/
+               float: right;
+               margin-top: 0px;
+          }
+          li a{
+               display: block;
+               color: black;
+               text-align: center;
+               padding: 14px 16px;             
+          }
+          li:hover{
+               transform: scale(1.35);
+               transition: .5s;
+          }
+          footer{
+          	   color: black; 
+               border-top-style: double;
+               text-align: center; 	
+          }
+          #footerAbout{
+          	   color: black; 
+               
+          }
+		
+	</style>
+</head>
+<body>
+
+	<script type="text/javascript">
+          window.alert("IMPORTANT MESSAGE\n\nHover on the picture to listen and learn.\nIf the sound does not play try clicking once\nYou can also click on image to replay the sound");
+    </script>
+
+	<nav>
+          <UL>
+               <stroong><LI><a href="CONTACT.html">CONTACT</a></LI><LI><a href="2.GAMEques.html">GAMES</a></LI><LI><a href="index.html">ABOUT</a></LI><li><a href="index.html">HOME</a></li></stroong>
+          </UL>
+     </nav>
+     <br>
+
+	<header>
+		<h1><span>LEARN ANIMALS & BIRDS NAME WITH SOUNDS</span> 🦅</h1>
+	</header>
+
+	<br><br>
+
+	<table align="center">
+		<tr>
+			<audio id="DOG">
+				<source src="ANIMALS\DOG.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('DOG')" onclick="playAudio1('DOG')" onmouseout="stopAudio1('DOG')" class="widthChange" src="https://cdn.orvis.com/images/DBS_GoldRetriever_1280.jpg" alt="DOG"></td>
+			<audio id="CAT">
+				<source  src="ANIMALS\CAT.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('CAT')" onclick="playAudio1('CAT')" onmouseout="stopAudio1('CAT')" src="https://s4.thingpic.com/images/pv/vFDFXGXB4SEwzc36RPGyJ8mb.jpeg" alt="CAT"></td>
+			<audio id="HORSE">
+				<source  src="ANIMALS\HORSE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('HORSE')" onclick="playAudio1('HORSE')" onmouseout="stopAudio1('HORSE')" src="https://qph.fs.quoracdn.net/main-qimg-8244ae4fe04111efb82130d7fc1f1828"alt="HORSE"></td>
+			<audio id="GOAT">
+				<source  src="ANIMALS\GOAT.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('GOAT')" onclick="playAudio1('GOAT')" onmouseout="stopAudio1('GOAT')" src="https://www.warrenphotographic.co.uk/photography/bigs/04654-Goat-standing-white-background.jpg"alt="GOAT"></td>
+		</tr>
+		<tr>
+			<audio id="COW">
+				<source  src="ANIMALS\COW.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('COW')" onclick="playAudio1('COW')" onmouseout="stopAudio1('COW')" class="widthChange" src="https://thumbs.dreamstime.com/b/cow-side-view-1246188.jpg"alt="COW"></td>
+			<audio id="ELEPHANT">
+				<source  src="ANIMALS\ELEPHANT.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('ELEPHANT')" onclick="playAudio1('ELEPHANT')" onmouseout="stopAudio1('ELEPHANT')" src="https://all4desktop.com/data_images/original/4242757-elephant.jpg"alt="ELEPHANT"></td>
+			<audio id="LION">
+				<source  src="ANIMALS\LION.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('LION')" onclick="playAudio1('LION')" onmouseout="stopAudio1('LION')" src="https://render.fineartamerica.com/images/rendered/default/poster/10/8/break/images-medium-5/side-view-of-a-lion-roaring-panthera-life-on-white.jpg"alt="LION"></td>
+			<audio id="MONKEY">
+				<source  src="ANIMALS\MONKEY.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('MONKEY')" onclick="playAudio1('MONKEY')" onmouseout="stopAudio1('MONKEY')" src="https://hongkongliving.com/wp-content/uploads/2019/06/Monkey-Hill.jpg"alt="MONKEY"></td>
+		</tr>
+		<tr>
+			<audio id="PEACOCK">
+				<source  src="ANIMALS\PEACOCK.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('PEACOCK')" onclick="playAudio1('PEACOCK')" onmouseout="stopAudio1('PEACOCK')" class="widthChange" src="https://cdn.britannica.com/37/154237-050-A76A506D/blue-peafowl-tail-Indian-peacock-courtship-displays.jpg"alt="PEACOCK"></td>
+			
+			<audio id="CROW">
+				<source  src="ANIMALS\CROW.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('CROW')" onclick="playAudio1('CROW')" onmouseout="stopAudio1('CROW')" src="https://images.unsplash.com/photo-1564249068830-d226f1bbf30b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"alt="CROW"></td>
+			<audio id="DUCK">
+				<source  src="ANIMALS\DUCK.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('DUCK')" onclick="playAudio1('DUCK')" onmouseout="stopAudio1('DUCK')" src="https://images.unsplash.com/photo-1544460848-32344b7004ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"alt="DUCK"></td>
+			<audio id="HEN">
+				<source  src="ANIMALS\HEN.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('HEN')" onclick="playAudio1('HEN')" onmouseout="stopAudio1('HEN')" src="https://storage.needpix.com/rsynced_images/hen-4265127_1280.jpg"alt="HEN"></td>
+		</tr>
+		<tr>
+			<audio id="PIGEON">
+				<source  src="ANIMALS\PIGEON.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('PIGEON')" onclick="playAudio1('PIGEON')" onmouseout="stopAudio1('PIGEON')" class="widthChange" src="https://www.allaboutbirds.org/guide/assets/photo/66031271-480px.jpg"alt="PIGEON"></td>
+			<audio id="SPARROW">
+				<source  src="ANIMALS\SPARROW.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('SPARROW')" onclick="playAudio1('SPARROW')" onmouseout="stopAudio1('SPARROW')" src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/66116661/1800"alt="SPARROW"></td>
+			<audio id="OWL">
+				<source  src="ANIMALS\OWL.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('OWL')" onclick="playAudio1('OWL')" onmouseout="stopAudio1('OWL')" src="https://stoptheshoot.files.wordpress.com/2018/12/tawny-owl-634x4642x.jpg"alt="OWL "></td>
+			<audio id="DOVE">
+				<source  src="ANIMALS\DOVE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('DOVE')" onclick="playAudio1('DOVE')" onmouseout="stopAudio1('DOVE')" src="https://images.immediate.co.uk/production/volatile/sites/23/2014/09/GettyImages-147952084-ba149d0.jpg?quality=90&resize=620%2C413"alt="DOVE"></td>
+		</tr>
+	</table>
+
+	<br>
+	<br>
+
+	<footer>
+	    <strong><p>This project has been created by HARSIMRANJIT SINGH. Go to <a id="footerAbout" href="index.html"><em>about</em></a> section to know more....</p></strong>
+    </footer>
+
+</body>
+</html>
+
+<!-- CROW -->
+<!-- PARROT -->
+<!-- PEACOCK -->
+<!-- DUCK -->
+<!-- EAGLE -->
+<!-- HEN -->
+<!-- PIGEON -->

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GOOD HABITS</title>
+	<script type="text/javascript">
+
+		function playAudio1(audio1) {
+        	var audio1=document.getElementById(audio1);
+        	audio1.play();
+        	audio1.playbackRate=0.75;
+        }
+        function stopAudio1(audio1){
+            var audio1=document.getElementById(audio1);
+        	audio1.pause();
+        	audio1.currentTime = 0;
+
+        }
+		
+	</script>
+	<style type="text/css">
+
+		header{
+			border-bottom-style: double;
+			text-align: center;
+			font-size: 27px;
+			color: #1838f5;
+		}
+		span{
+			text-shadow: 10px 10px 20px #8798fa;
+		}
+		table{
+			
+			border-spacing: 15px;
+		}
+		img{
+			/*padding: 30px;*/
+			height: 180px;
+			width: 225px;
+            border: 1px solid black;
+		}
+		img:hover{
+			border: 1px solid black;
+			transition: .5s;
+			transform: scale(1.75);
+		}
+		body{
+			width: 100%;
+			background-color: #a4f5ba;
+			/*overflow: hidden;*/
+		}
+		li{
+               overflow: hidden;
+               position: sticky;
+               /*top: 0;*/
+               float: right;
+               margin-top: 0px;
+          }
+          li a{
+               display: block;
+               color: black;
+               text-align: center;
+               padding: 14px 16px;             
+          }
+          li:hover{
+               transform: scale(1.35);
+               transition: .5s;
+          }
+          footer{
+               color: #1838f5;
+               border-top-style: double;
+               text-align: center; 	
+          }
+          #footerAbout{
+          	   color: #1838f5;
+          }
+	</style>
+</head>
+<body>
+
+	<nav>
+          <UL>
+               <strong><LI><a href="CONTACT.html">CONTACT</a></LI><LI><a href="2.GAMEques.html">GAMES</a></LI><LI><a href="index.html">ABOUT</a></LI><li><a href="index.html">HOME</a></li></strong>
+          </UL>
+     </nav>
+     <br>
+
+	<header>
+		<h2><span>LEARN&nbsp; SOME&nbsp; GOOD&nbsp; HABITS&nbsp;</span>&nbsp;😄</h2>
+	</header>
+
+	<script type="text/javascript">
+          window.alert("IMPORTANT MESSAGE\n\nHover on the picture to listen and learn.\nIf the sound does not play try clicking once\nYou can also click on image to replay the sound");
+    </script>
+
+	<br>
+	<br>
+	<table align="center">
+		<tr>
+			<audio id="wakeEarly">
+				<source src="HABITS\wakeEarly.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('wakeEarly')" onclick="playAudio1('wakeEarly')" onmouseout="stopAudio1('wakeEarly')" src="https://thumbs.dreamstime.com/b/happy-cute-little-kid-boy-wake-up-morning-170028658.jpg" alt=""></td><!-- Wake up early morning and wish your parents -->
+			<audio id="brush">
+				<source src="HABITS\brush.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('brush')" onclick="playAudio1('brush')" onmouseout="stopAudio1('brush')" src="https://thumbs.dreamstime.com/b/vector-illustration-kid-brushing-teeth-eps-131699343.jpg" alt=""></td><!-- Brush your teeth daily -->
+			<audio id="bathing">
+				<source src="HABITS\bathing.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('bathing')" onclick="playAudio1('bathing')" onmouseout="stopAudio1('bathing')" src="https://thumbs.dreamstime.com/b/vector-illustration-small-child-sitting-bathroom-pouring-shampoo-his-head-clip-art-print-template-design-92092637.jpg" alt=""></td><!-- Take a bath everyday -->
+			<audio id="combing">
+				<source src="HABITS\combing.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('combing')" onclick="playAudio1('combing')" onmouseout="stopAudio1('combing')" src="https://thumbs.dreamstime.com/b/boy-comb-hair-comb-vector-illustration-original-paintings-drawing-72564956.jpg" alt=""></td><!-- Comb your hair -->
+		</tr>
+		<tr>
+			<audio id="washHands">
+				<source src="HABITS\washHands.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('washHands')" onclick="playAudio1('washHands')" onmouseout="stopAudio1('washHands')" src="https://previews.123rf.com/images/tigatelu/tigatelu1503/tigatelu150300081/37538589-cartoon-boy-washing-hand.jpg" alt=""></td><!-- Wash your hands before eating -->
+			<audio id="eatHealthy">
+				<source src="HABITS\eatHealthy.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('eatHealthy')" onclick="playAudio1('eatHealthy')" onmouseout="stopAudio1('eatHealthy')" src="https://thumbs.dreamstime.com/b/boy-eating-fruit-sitting-table-banana-watermelon-grapes-tray-placed-home-dining-room-emotional-mood-child-s-126901469.jpg" alt=""></td><!-- Eat healthy food like vegetables and fruits-->
+			<audio id="goPark">
+				<source src="HABITS\goPark.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('goPark')" onclick="playAudio1('goPark')" onmouseout="stopAudio1('goPark')" src="https://grassmatsusa.com/wp-content/uploads/2019/05/kids-playing-park-playground.jpg" alt=""></td><!-- Go to park in evening-->
+			<audio id="sayingGood">
+				<source src="HABITS\sayingGood.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('sayingGood')" onclick="playAudio1('sayingGood')" onmouseout="stopAudio1('sayingGood')" src="https://i.ytimg.com/vi/eeJEVtIvSwo/maxresdefault.jpg" alt=""></td><!-- Say 'Please','Thank You' and 'Sorry'-->
+		</tr>
+	</table>
+
+	<br>
+
+
+
+	<footer>
+	<strong><p>This project has been created by HARSIMRANJIT SINGH. Go to <a id="footerAbout" href="index.html"><em>about</em></a> section to know more....</p></strong>
+    </footer>
+
+	<!-- <script type="text/javascript">
+          window.alert("IMPORTANT MEASSAGE\n\nHover on the picture to listen and learn.\nIf the sound does not play try clicking once");
+    </script> -->
+
+</body>
+</html>

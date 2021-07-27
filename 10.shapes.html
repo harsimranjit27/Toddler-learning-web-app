@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LEARN SHAPES</title>
+	<script type="text/javascript">
+
+		function playAudio1(audio1) {
+        	var audio1=document.getElementById(audio1);
+        	audio1.play();
+        	audio1.playbackRate=0.7;
+        }
+        function stopAudio1(audio1){
+            var audio1=document.getElementById(audio1);
+        	audio1.pause();
+        	audio1.currentTime = 0;
+        }
+		
+	</script>
+	<style type="text/css">
+
+		img{
+			height: 205px;
+			width: 205px;
+			
+		}
+		img:hover{
+			transition: .5s;
+			transform: scale(1.5);
+		}
+		body{
+			background-color: black;
+			width: 100%;
+			/*overflow: hidden;*/
+		}
+		td{
+			border: 1px solid white;
+		}
+		table{
+			border-spacing: 10px;
+		}
+
+		header
+		{
+			display: block;
+			/*border-top-style: double;*/
+			border-bottom-style: double ;
+            font-size: 24px;
+            text-align: center; 
+			color: white;      
+		}
+		h1{
+			margin-left: auto;
+			margin-right: auto;
+		}
+		span{
+
+			text-shadow: 10px 10px 20px #FF1493;
+		}
+		li{
+               overflow: hidden;
+               position: sticky;
+               float: right;
+               font-size: 15px;
+          }
+          li a{
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 14px 16px;             
+          }
+          li:hover{
+               transform: scale(1.1);
+               transition: .5s;
+          }
+          div{
+          	position: sticky;
+          }
+          footer{
+               border-top-style: double;
+               text-align: center; 	
+               color: white
+          }
+          #footerAbout{
+          	   color: white;
+          }
+		
+	</style>
+</head>
+<body>
+
+	<script type="text/javascript">
+          window.alert("IMPORTANT MESSAGE\n\nHover on the picture to listen and learn.\nIf the sound does not play try clicking once\nYou can also click on image to replay the sound");
+     </script>
+ <div>
+     <nav>
+          <ul>
+               
+               	<li><a href="CONTACT.html">CONTACT</a></li>
+               	<li><a href="2.GAMEques.html">GAMES</a></li>
+               	<li><a href="index.html">ABOUT</a></li>
+               	<li><a href="index.html">HOME</a></li>
+               
+          </ul>
+     </nav>
+ </div>
+     <br>	
+    <header>
+
+		<h1 >🔴🔷<span> LET&nbsp; US&nbsp; LEARN&nbsp; SHAPES&nbsp;</span>&nbsp;🔷🟡</h1>
+
+	</header>
+	<!-- <h1 style="text-align: center;color:white;">Hello World</h1> -->
+	<br>
+	<br>
+	<table align="center">
+		<tr>
+			<audio id="CIRCLE">
+				<source src="SHAPES\CIRCLE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('CIRCLE')" onclick="playAudio1('CIRCLE')" onmouseout="stopAudio1('CIRCLE')" src="SHAPES\CIRCLE.png" alt="CIRCLE"></td>
+			<audio id="SQUARE">
+				<source src="SHAPES\SQUARE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('SQUARE')" onclick="playAudio1('SQUARE')" onmouseout="stopAudio1('SQUARE')" src="SHAPES\SQUARE.png" alt="SQUARE"></td>
+			<audio  id="TRIANGLE">
+				<source src="SHAPES\TRIANGLE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('TRIANGLE')" onclick="playAudio1('TRIANGLE')" onmouseout="stopAudio1('TRIANGLE')" src="SHAPES\TRIANGLE.png" alt="TRIANGLE"></td>
+			<audio id="STAR">
+				<source src="SHAPES\STAR.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('STAR')" onclick="playAudio1('STAR')" onmouseout="stopAudio1('STAR')" src="SHAPES\STAR.png" alt="STAR"></td>
+		</tr>
+		<tr>
+			<audio id="RECTANGLE">
+				<source src="SHAPES\RECTANGLE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('RECTANGLE')" onclick="playAudio1('RECTANGLE')" onmouseout="stopAudio1('RECTANGLE')" src="SHAPES\RECTANGLE.png" alt="RECTANGLE"></td>
+			<audio id="OVAL">
+				<source src="SHAPES\OVAL.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('OVAL')" onclick="playAudio1('OVAL')" onmouseout="stopAudio1('OVAL')" src="SHAPES\OVAL.png" alt="OVAL"></td>
+			<audio id="HEART">
+				<source src="SHAPES\HEART.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('HEART')" onclick="playAudio1('HEART')" onmouseout="stopAudio1('HEART')" src="SHAPES\HEART.png" alt="HEART"></td>
+			<audio id="KITE">
+				<source src="SHAPES\KITE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('KITE')" onclick="playAudio1('KITE')" onmouseout="stopAudio1('KITE')" src="SHAPES\KITE.png" alt="KITE"></td>
+		</tr>
+	</table>
+	<br><br>
+   <footer>
+	 <strong><p>This project has been created by HARSIMRANJIT SINGH. Go to <a id="footerAbout" href="index.html"><em>about</em></a> section to know more....</p></strong>
+   </footer>
+</body>
+</html>

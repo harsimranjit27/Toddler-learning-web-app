@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VEHICLES NAME</title>
+	<script type="text/javascript">
+
+		function playAudio1(audio1) {
+        	var audio1=document.getElementById(audio1);
+        	audio1.play();
+        	audio1.playbackRate=0.7;
+        }
+        function stopAudio1(audio1){
+            var audio1=document.getElementById(audio1);
+        	audio1.pause();
+        	audio1.currentTime = 0;
+        }
+		
+	</script>
+	<style type="text/css">
+
+		img{
+			height: 155px;
+			width: 235px;
+			border: 1px solid black;
+		}
+		img:hover{
+			transition: .5s;
+			transform: scale(1.8);
+		}
+		#car,#truck{
+			width: 250px;
+		}
+		table{
+			/*width: 980px;*/
+			border-spacing: 10px;
+		}
+		header{
+			font-size: 22px;
+			color: #021b2b;
+			text-align: center;
+			border-bottom-style: double;
+			border-bottom-color: #021b2b;
+		}
+		body{
+			width: 100%;
+			background-color: #85929E;
+		}
+		li{
+               float: right;
+               margin-top: 0px;
+               list-style-type: none;
+          }
+          li a{
+               display: block;
+               color: black;
+               text-align: center;
+               padding: 14px 16px;             
+          }
+          li:hover{
+               transform: scale(1.35);
+               transition: .5s;
+          }
+          footer{
+               border-top-style: double;
+               text-align: center; 	
+          }
+          #footerAbout{
+          	   color: black;
+
+          }
+	</style>
+</head>
+<body>
+
+	<script type="text/javascript">
+          window.alert("IMPORTANT MESSAGE\n\nHover on the picture to listen and learn.\nIf the sound does not play try clicking once\nYou can also click on image to replay the sound");
+    </script>
+
+	<nav>
+          <UL>
+               <strong><LI><a href="CONTACT.html">CONTACT</a></LI><LI><a href="2.GAMEques.html">GAMES</a></LI><LI><a href="indexL.html">ABOUT</a></LI><li><a href="index.html">HOME</a></li></strong>
+          </UL>
+     </nav>
+     <br>
+   
+    <header>
+		<h1><span>LET&nbsp; US&nbsp; LEARN&nbsp; VEHICLES&nbsp; NAME&nbsp;</span>&nbsp;🚗🚲</h1>
+	</header>
+	<br><br>
+
+	<table align="center">
+		<tr>
+			<audio id="CAR1">
+				<source src="VEHICLES\CAR.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('CAR1')" onclick="playAudio1('CAR1')" onmouseout="stopAudio1('CAR1')" id="car" src="https://imgd.aeplcdn.com/1056x594/n/cfbd7sa_1471622.jpg?q=85" alt="CAR"></td>
+			<audio id="MOTORCYCLE">
+				<source src="VEHICLES\MOTORCYCLE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('MOTORCYCLE')" onclick="playAudio1('MOTORCYCLE')" onmouseout="stopAudio1('MOTORCYCLE')" src="https://www.colchesterkawasaki.co.uk/upload/images/2020%20Aprilia/2020-aprilia-rs-660-first-look-fast-facts-11.jpg" alt="MOTORCYCLE"></td>
+			<audio id="BUS">
+				<source src="VEHICLES\BUS.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('BUS')" onclick="playAudio1('BUS')" onmouseout="stopAudio1('BUS')" src="https://www.whatcomdemocrats.org/wp-content/uploads/2017/09/bus.jpg" alt="BUS"></td>
+			<audio id="AUTO">
+				<source src="VEHICLES\AUTO.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('AUTO')" onclick="playAudio1('AUTO')" onmouseout="stopAudio1('AUTO')" src="https://images.financialexpress.com/2020/03/Bajaj-RE-Glass-Black3.jpg" alt="AUTO"></td>
+		</tr>
+		<tr>
+			<audio id="TRUCK">
+				<source src="VEHICLES\TRUCK.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('TRUCK')" onclick="playAudio1('TRUCK')" onmouseout="stopAudio1('TRUCK')" id="truck" src="https://www.tatamotors.com/wp-content/uploads/2018/01/19065145/mhcv-construck.jpg" alt="TRUCK"></td>
+			<audio id="BICYCLE">
+				<source src="VEHICLES\BICYCLE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('BICYCLE')" onclick="playAudio1('BICYCLE')" onmouseout="stopAudio1('BICYCLE')" src="https://images-na.ssl-images-amazon.com/images/I/51ea-1Q5mGL.jpg" alt="BICYCLE"></td>
+			<audio id="AEROPLANE">
+				<source src="VEHICLES\AEROPLANE.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('AEROPLANE')" onclick="playAudio1('AEROPLANE')" onmouseout="stopAudio1('AEROPLANE')" src="https://previews.123rf.com/images/rebius/rebius1405/rebius140500063/28425924-huge-plane-with-blue-tail-on-white-background.jpg" alt="AEROPLANE"></td>
+			<audio id="HELICOPTER">
+				<source src="VEHICLES\HELICOPTER.mp3" type="audio/mp3">
+			</audio>
+			<td><img onmouseover="playAudio1('HELICOPTER')" onclick="playAudio1('HELICOPTER')" onmouseout="stopAudio1('HELICOPTER')" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3CXiCntiovdcYSPTGrugOk6DHDhBW7spDKA&usqp=CAU" alt="HELICOPTER"></td>
+		</tr>
+	</table>
+
+	<br>
+
+	<footer>
+	     <strong><p>This project has been created by HARSIMRANJIT SINGH. Go to <a id="footerAbout" href="index.html"><em>about</em></a> section to know more....</p></strong>
+    </footer>
+
+</body>
+</html>
